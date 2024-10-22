@@ -1,0 +1,53 @@
+# ROS-specific ignores
+
+# Ignore build artifacts
+/build/
+/devel/
+/install/
+
+# Ignore logs and debugging artifacts
+/log/
+/logs/
+/ros_test_results/
+
+# Ignore catkin workspace files
+/.catkin_workspace
+/.catkin_tools/
+/.catkin_tools/
+CMakeLists.txt.user
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+
+# Ignore temporary files
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.iml
+
+# Ignore binaries and object files
+*.o
+*.so
+*.a
+*.out
+
+# Ignore MacOS system files
+.DS_Store
+._*
+
+# Ignore executables and core dumps
+*.exe
+*.dll
+*.core
