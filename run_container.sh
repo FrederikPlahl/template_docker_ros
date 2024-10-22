@@ -9,7 +9,6 @@ docker run \
     --rm \
     -e DISPLAY=$DISPLAY \
     -e QT_X11_NO_MITSHM=1 \
-    --gpus all \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
     -v ~/.Xauthority:/home/docker/.Xauthority \
     -v $PWD/template_pkg:/home/docker/ros_ws/src/template_pkg \
