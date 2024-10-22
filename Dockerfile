@@ -44,7 +44,7 @@ RUN mkdir -p /home/$USER/ros_ws/src
 ##############################################################################
 WORKDIR /home/$USER/ros_ws/src
 
-# COPY template_pkg ./template_pkg
+COPY template_pkg ./template_pkg
 
 # RUN git clone --branch main https://github.com/example/package.git
 
